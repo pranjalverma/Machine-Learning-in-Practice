@@ -72,6 +72,7 @@ def predictLR(X_test, y_test):
 	for i in range(len(X_test)):
 		print(forecast[i], y_test[i])
 
+# init
 if __name__ == '__main__':
 	X_test, y_test = trainLR()
 	predictLR(X_test, y_test)

@@ -35,6 +35,7 @@ classifier_1 = tf.estimator.DNNClassifier(
     model_dir="./tmp/mnist_model"
 )
 
+# predict on input
 preds = classifier_1.predict(
     input_fn=test_input_fn
     )

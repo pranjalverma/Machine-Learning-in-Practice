@@ -50,6 +50,6 @@ test_input_fn = tf.estimator.inputs.numpy_input_fn(
     shuffle=False
 )
 
-# Evaluate accuracy
+# Evaluate accuracy of net
 #accuracy_score = classifier.evaluate(input_fn=test_input_fn)["accuracy"]
 #print("\nTest Accuracy: {0:f}%\n".format(accuracy_score*100))

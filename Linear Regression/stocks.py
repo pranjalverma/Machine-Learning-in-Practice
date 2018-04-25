@@ -1,6 +1,6 @@
 '''
 	Linear Regression for stock price predictions, using sklearn
-	Author: Pranjal Verma
+	@author: Pranjal Verma
 '''
 
 import numpy as np

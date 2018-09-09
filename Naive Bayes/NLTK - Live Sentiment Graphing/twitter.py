@@ -5,10 +5,10 @@ import json
 import sent_mod as s 
 
 #consumer key, consumer secret, access token, access secret.
-ckey="RbPHdBQPf3uzrv8giPUiZIsrW"
-csecret="GvTqlSu2rbvhH7vXqdt2s5IGny8LycZ0IC9uw8JAAbWpdc4MX2"
-atoken="1031145620352974850-CBXW51vYN5OeNtyTe3OlPMihS1H5UB"
-asecret="w8Td4pE58x8VL8By11XBfMOrKiOuB7m1js46sXPiRqA3i"
+ckey=""
+csecret=""
+atoken=""
+asecret=""
 
 class listener(StreamListener):
 
